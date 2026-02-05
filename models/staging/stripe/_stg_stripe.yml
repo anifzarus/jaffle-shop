@@ -1,0 +1,7 @@
+models:
+  - name: stg_stripe__payments
+    columns:
+      - name: PAYMENT_ID
+        tests:
+          - unique
+          - not_null
